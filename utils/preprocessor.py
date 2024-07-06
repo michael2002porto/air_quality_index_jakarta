@@ -98,6 +98,10 @@ class Preprocessor():
         print(category_count)
         print("\n")
 
+        # Save the Removing Rows with Missing Values to a CSV file
+        preprocessed_dataset = pd.DataFrame(dataset)
+        preprocessed_dataset.to_csv('preprocessed_ispu_dki1.csv', index=False)
+
         #Split the Features (X) and Target (Y)
         y = dataset['categori'].values
         x = dataset.drop('categori', axis=1)
