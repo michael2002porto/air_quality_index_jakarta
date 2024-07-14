@@ -5,11 +5,11 @@
 - **TIDAK ADA DATA** = 110 → hapus
 
 # preprocessed_ispu_dki1.csv
-- SEDANG = 2877 → ENN = 1000
 - BAIK = 928
+- SEDANG = 2877 → ENN = 1000
 - TIDAK SEHAT = 145 → SMOTE = 5000 → ENN = 1000
 
 # resampled_ispu_dki1.csv
-- SEDANG = 2877
 - BAIK = 928
+- SEDANG = 2877
 - TIDAK SEHAT = 145
