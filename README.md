@@ -11,5 +11,5 @@
 
 # resampled_ispu_dki1.csv
 - BAIK = 928
-- SEDANG = 2877
-- TIDAK SEHAT = 145
+- SEDANG = 1000
+- TIDAK SEHAT = 901
