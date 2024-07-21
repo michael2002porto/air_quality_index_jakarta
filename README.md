@@ -12,4 +12,8 @@
 # resampled_ispu_dki1.csv
 - BAIK = 928
 - SEDANG = 1000
-- TIDAK SEHAT = 901
+- TIDAK SEHAT = 924
+
+Resampled dataset shape (ENN) [('BAIK', 928), ('SEDANG', 1000), ('TIDAK SEHAT', 145)]
+Resampled dataset shape (SMOTE) [('BAIK', 928), ('SEDANG', 1000), ('TIDAK SEHAT', 2800)]
+Resampled dataset shape (ENN) [('BAIK', 928), ('SEDANG', 1000), ('TIDAK SEHAT', 924)]
