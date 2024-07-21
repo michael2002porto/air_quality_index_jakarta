@@ -46,9 +46,9 @@ class Preprocessor():
         # x_resampled, y_resampled = sme.fit_resample(x_resampled, y_resampled)
         # print('Resampled dataset shape (SMOTENN) %s' % Counter(y_resampled))
 
-        # Over-sampling set manual "TIDAK SEHAT" -> 5000 data (change sampling_strategy)
+        # Over-sampling set manual "TIDAK SEHAT" -> 2800 data (change sampling_strategy)
         smote = SMOTE(
-            sampling_strategy={'TIDAK SEHAT': 5000},
+            sampling_strategy={'TIDAK SEHAT': 2800},
             random_state=None,
             k_neighbors=5,
             n_jobs=None
@@ -59,7 +59,7 @@ class Preprocessor():
         # Under-sampling majority "TIDAK SEHAT" -> over 1000 data (change n_neighbors)
         enn = EditedNearestNeighbours(
             sampling_strategy='majority',
-            n_neighbors=4000,
+            n_neighbors=1950,
             kind_sel='all',
             n_jobs=None
         )
